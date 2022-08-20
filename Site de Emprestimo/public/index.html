@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimun-scale = 1 /">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Empréstimos</title>
+</head>
+<body>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li ><a id="home" href="index.html">Home</a></li>
+                    <li ><a id="criarEmprestimo" href="criar.html">Criar Empréstimos</a></li>
+                </ul>
+    
+            </nav>
+        </header>
+    <main id="main">
+        <div id="Emprestimos">
+            <h1>Empréstimos</h1>
+            <form id = "obterEmprestimos" action="" method="post">
+                <div id="Emprestimospt1">
+                    <input type="text" id="credor" name="credor" placeholder="Credor" required >
+                    <input type="text" id="devedor" name="devedor" placeholder="Devedor" required>
+                </div>
+                <div id="Emprestimospt2">
+                    <button name="search" id="Pesquisar" type="button">Pesquisar</button>
+                </div>
+            </form>
+            
+        </div>
+        <div id="divTabela">
+            <table>
+                <thead>
+                <tr>
+                <th>
+                    <input type="radio" id="radiobutton" disabled>
+                </th>
+                <th>
+                    Data
+                </th>
+                <th>
+                    Valor
+                </th>
+                <th>
+                    Valor Corrigido
+                </th>
+            </tr>
+            </thead>
+            <tbody id="tabela">
+            </tbody>
+            </table>
+        </div>
+
+            <input type="password" id="senha" name="senha" placeholder="Senha do Credor" required >
+        <button name="quitar" id="quitar">Quitar Empréstimo</button>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

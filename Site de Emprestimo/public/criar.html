@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/criar.css">
+    <title>Criar Empréstimo</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li ><a id="home" href="/">Home</a></li>
+                <li ><a id="homecriar" href="/CriarEmprestimo">Criar Empréstimos</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+    <h1>Criar Empréstimo</h1>
+    <p>Devedor</p>
+    <div id="devedor">
+    <input type="text" placeholder="Nome" name="nomeDevedor" id="nomeDevedor" required>
+    <input type="password" placeholder="Senha" name="senhaDevedor" id="senhaDevedor"  required>
+    </div>
+    <p>Credor</p>
+    <div id="credor">
+    <input type="text" placeholder="Nome" name="nomeCredor" id="nomeCredor" required>
+    </div>
+    <p>Empréstimo</p>
+    <div id="emprestimo">
+    <input type="number" placeholder="Valor" name="valor" id="valor"  required>
+    
+    </div>
+    <button id="criarEmprestimo" >Criar Empréstimo</button>
+    <div id="mensagem">
+        <ul>
+
+        </ul>
+    </div>
+    </main>
+    <script src="js/criarEmprestimo.js"></script>
+
+</body>
+</html>
