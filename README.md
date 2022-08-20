@@ -7,7 +7,7 @@
 </p>
 
 
-<p>Front-End feito por: https://github.com/JoaoVictorT</p>
+Front-End feito por: https://github.com/JoaoVictorT
 
-<p>Back-End feito por: https://github.com/nilson98bra</p> 
-                       https://github.com/RobsonLsMello
+Back-End feito por: https://github.com/nilson98bra
+                    https://github.com/RobsonLsMello
