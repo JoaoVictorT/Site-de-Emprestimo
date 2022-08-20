@@ -9,5 +9,5 @@
 
 <p>Front-End feito por: https://github.com/JoaoVictorT</p>
 
-<p>Back-End feito por: https://github.com/nilson98bra
-                    https://github.com/RobsonLsMello</p>
+Back-End feito por: https://github.com/nilson98bra
+                    https://github.com/RobsonLsMello
