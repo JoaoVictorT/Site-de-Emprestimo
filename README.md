@@ -7,6 +7,6 @@
 </p>
 
 
-Front-End feito por: <a href="https://github.com/JoaoVictorT"> </a>
-Back-End feito por: <a href="https://github.com/nilson98bra"></a>
-                    <a href="https://github.com/RobsonLsMello"></a>
+Front-End feito por: https://github.com/JoaoVictorT
+Back-End feito por: https://github.com/nilson98bra
+                    https://github.com/RobsonLsMello
